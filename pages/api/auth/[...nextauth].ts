@@ -13,7 +13,7 @@ export const authOptions = {
             clientSecret: process.env.GITHUB_CLIENT_SECRET || '',
         })
     ],
-  secret: process.env.SECRET,
+    secret: process.env.SECRET,
 }
-
+// sadasd
 export default NextAuth(authOptions);
