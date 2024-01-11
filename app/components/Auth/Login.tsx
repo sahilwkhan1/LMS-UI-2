@@ -117,7 +117,7 @@ const Login: FC<Props> = ({ setRoute, setOpen, refetch }) => {
           <FcGoogle
             size={30}
             className="cursor-pointer mr-2"
-            onClick={() => signIn("google")}
+            onClick={() => signIn("google", { callbackUrl: "http://localhost:4000" })}
           />
           <AiFillGithub
             size={30}
